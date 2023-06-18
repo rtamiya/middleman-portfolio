@@ -12,13 +12,16 @@
   description: Breakstuff is a "breakroom" simulation website.
   image: projects/breakstuff.png
   url: https://breakstufftokyo.herokuapp.com/
+  github: https://github.com/jweber13/breakstuff
 
 - name: Kenkoumatch
   description: A web application helping foreigners in Japan to find and consult doctors.
   image: projects/kenkoumatch.png
   url: https://www.kenkoumatch.com/
+  github: https://github.com/jweber13/kenkoumatch
 
-- name: react-tic-tac-toe
+- name: tic-tac-toe
   description: Tic-tac-toe using react
   image: projects/react-tic-tac-toe.png
   url: https://react-101-tic-tac-toe.netlify.app/
+  github: https://github.com/rtamiya/react-tic-tac-toe

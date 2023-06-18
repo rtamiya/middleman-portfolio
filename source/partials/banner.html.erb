@@ -1,7 +1,27 @@
-<div class="row justify-content-center banner">
+<div id="banner" class="row justify-content-center banner">
   <div class="col-12 d-flex flex-column justify-content-center align-items-center">
     <%= image_tag 'N25.JPG', alt: "profile photo", class: 'avatar' %>
-    <h1 class="title-main">Ryo Tamiya</h1>
-    <p>full-stack developer || organist || organ teacher</p>
+    <h1 class="title-main mt-3">Ry<span class="red">o</span> T<span class="yellow">a</span><span class="blue">m</span>iya</h1>
+    <p>full-stack developer || organist</p>
+    <div id="contact">
+      <div class="d-flex justify-content-center flex-wrap">
+        <div class="button-social d-flex flex-column justify-content-center align-items-center">
+          <i class="fa-solid fa-envelope red"></i>
+          <%= mail_to "ryo.tamiyaayimat.oyr@gmail.com", "", class: 'button-social-link' %>
+        </div>
+        <div class="button-social d-flex flex-column justify-content-center align-items-center">
+          <i class="fa-brands fa-github yellow"></i>
+          <%= link_to "", "https://github.com/rtamiya", target: '_blank', class: 'button-social-link' %>
+        </div>
+        <div class="button-social d-flex flex-column justify-content-center align-items-center">
+          <i class="fa-brands fa-linkedin blue"></i>
+          <%= link_to "", "https://www.linkedin.com/in/ryotamiya/", target: '_blank', class: 'button-social-link' %>
+        </div>
+      </div>
   </div>
+  <%# <div class="row my-5">
+  <div class="col-12"> %>
+    <%# </div>
+  </div> %>
+</div>
 </div>
