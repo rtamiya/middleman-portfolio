@@ -17,3 +17,8 @@
   description: A web application helping foreigners in Japan to find and consult doctors.
   image: projects/kenkoumatch.png
   url: https://www.kenkoumatch.com/
+
+- name: react-tic-tacote
+  description: Tic-tac-toe using react
+  image: projects/react-tic-tac-toe.png
+  url: react-101-tic-tac-toe.netlify.app
