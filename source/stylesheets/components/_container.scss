@@ -9,15 +9,38 @@
   width: 320px;
 }
 
-#skills .container-section-left-column{
-  display: flex;
-  justify-content: start;
-  width: 100%;
-}
+// #skills .container-section-left-column{
+//   display: flex;
+//   justify-content: start;
+//   width: 100%;
+// }
 
-#skills .container-section-right-column{
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  width: 100%;
+// #skills .container-section-right-column{
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: start;
+//   width: 100%;
+// }
+
+// for bigger screens
+@media (min-width: 992px) {
+  .container-section {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 32px;
+  }
+
+  .container-section-left-column {
+    width: 400px;
+
+    h1 {
+      text-align: center;
+    }
+  }
+
+
+  .container-section-right-column {
+    flex: 1;
+  }
 }
