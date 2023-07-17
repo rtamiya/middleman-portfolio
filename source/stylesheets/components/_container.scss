@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-section {
+  margin-top: 80px;
+  width: 320px;
+}
+
+#skills .container-section-left-column{
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+
+#skills .container-section-right-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 100%;
+}

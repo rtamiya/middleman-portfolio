@@ -1,0 +1,33 @@
+<div class="modal fade" id="exampleModal<%= id %>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">
+          <%= name %> <br>
+          <div class="modal-title-devicons">
+            <% unless devicons.nil? %>
+              <% devicons.each do |devicon| %>
+                <i class="devicon-<%= devicon %>"></i>
+              <% end %>
+            <% end %>
+          </div>
+        </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <%= partial 'shared/carousel', locals: {screenshots: screenshots, id: id} %>
+        <%= description %>
+      </div>
+      <div class="modal-footer">
+        <% link_to url, class: "btn btn-primary", target: "_blank" do %>
+          <i class="fa-solid fa-arrow-up-right-from-square" style="color: #f4f4f4;"></i>
+          Web site
+        <% end %>
+        <% link_to github, class: "btn btn-primary", target: "_blank" do %>
+          <i class="fa-brands fa-github" style="color: #f4f4f4;"></i>
+          Source code
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
