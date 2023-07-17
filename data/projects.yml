@@ -8,20 +8,67 @@
 #   image: projects/placeholder.png
 #   url: https://www.google.com
 
-- name: Breakstuff
-  description: Breakstuff is a "breakroom" simulation website.
-  image: projects/breakstuff.png
+- id: 1
+  name: Breakstuff
+  description: Breakstuff is a "breakroom" simulation website. Users can search for "breakrooms" to reserve for use (use in this case includes releasing stress by destroying everything!). Users can also share their own breakrooms and upload photos / rooms for others to reserve. Room owners will be able to accept or reject reservation requests from other users. This website is modelled on airbnb.
+  icon: icons/icons8-hammer-50.png
   url: https://breakstufftokyo.herokuapp.com/
   github: https://github.com/jweber13/breakstuff
+  screenshots:
+    - images/projects/breakstuff/Screenshot 2023-07-16 at 17.17.55.png
+    - images/projects/breakstuff/Screenshot 2023-07-16 at 17.18.41.png
+    - images/projects/breakstuff/Screenshot 2023-07-16 at 17.19.45.png
+    - images/projects/breakstuff/Screenshot 2023-07-16 at 17.20.06.png
+    - images/projects/breakstuff/Screenshot 2023-07-16 at 17.20.21.png
+  devicons:
+    - ruby-plain-wordmark
+    - rails-plain-wordmark
+    - postgresql-plain-wordmark
+    - javascript-plain
+    - html5-plain-wordmark
+    - css3-plain-wordmark
+    - sass-original
+    - bootstrap-plain-wordmark
+    - git-plain-wordmark
+    - github-original-wordmark
+    - heroku-plain-wordmark
 
-- name: Kenkoumatch
-  description: A web application helping foreigners in Japan to find and consult doctors.
-  image: projects/kenkoumatch.png
+
+
+
+- id: 2
+  name: Kenkoumatch
+  description: This app will allow you to search for doctors in Japan by practice / specialty. From the menu, you can search for symptoms (hardcoded keywords associated with practices) Select the specialty that fits, and you can perform a search for nearby docs and / or create a translation card The translation card takes your symptoms as input and will return to you the Japanese translation, associated keywords, and associated phrases. You can regenerate the phrases / keywords, and save the ones you like to your favorites.
+  icon: icons/kenkoumatch-icon.png
   url: https://www.kenkoumatch.com/
   github: https://github.com/jweber13/kenkoumatch
+  screenshots:
+    - images/projects/kenkoumatch/Screenshot 2023-07-17 at 21.23.03.png
+    - images/projects/kenkoumatch/Screenshot 2023-07-17 at 21.23.57.png
+    - images/projects/kenkoumatch/Screenshot 2023-07-17 at 21.25.12.png
+  devicons:
+    - ruby-plain-wordmark
+    - rails-plain-wordmark
+    - postgresql-plain-wordmark
+    - javascript-plain
+    - html5-plain-wordmark
+    - css3-plain-wordmark
+    - sass-original
+    - bootstrap-plain-wordmark
+    - git-plain-wordmark
+    - github-original-wordmark
+    - heroku-plain-wordmark
 
-- name: tic-tac-toe
-  description: Tic-tac-toe using react
-  image: projects/react-tic-tac-toe.png
+
+
+
+- id: 3
+  name: tic-tac-toe
+  description: simple tic tac toe game for practicing react.js
+  icon: images/icons/icons8-tic-tac-toe-60.png
   url: https://react-101-tic-tac-toe.netlify.app/
   github: https://github.com/rtamiya/react-tic-tac-toe
+  screenshots:
+    - images/projects/tictactoe/react-tic-tac-toe.png
+  devicons:
+    - react-original

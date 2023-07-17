@@ -1,9 +1,11 @@
 .avatar {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: fit-content;
+  aspect-ratio: 1 / 1;
   // border-radius: 50%;
   object-fit: cover;
-  object-position: 25% 50%;
+  object-position: 85% 25%;
+  filter: grayscale(100%);
 }
 .avatar-large {
   width: 56px;

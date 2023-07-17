@@ -1,27 +1,27 @@
-<div id="banner" class="row justify-content-center banner">
-  <div class="col-12 d-flex flex-column justify-content-center align-items-center">
-    <%= image_tag 'N25.JPG', alt: "profile photo", class: 'avatar' %>
-    <h1 class="title-main mt-3">Ry<span class="red">o</span> T<span class="yellow">a</span><span class="blue">m</span>iya</h1>
-    <p>full-stack developer || organist</p>
-    <div id="contact">
-      <div class="d-flex justify-content-center flex-wrap">
-        <div class="button-social d-flex flex-column justify-content-center align-items-center">
+<div id="about" class="container-section">
+  <div class="container-section-left-column">
+    <%= image_tag 'ryotamiya.jpg', alt: "profile photo", class: 'avatar' %>
+  </div>
+  <div class="container-section-right-column">
+      <h1 class="mt-3">Ryo Tamiya</h1>
+      <h2>Full-stack developer</h2>
+      <p>
+        Welcome to my portfolio! I'm full-stack developer based in Tokyo.<br>
+        After studying music and working as a musician, I'm thrilled to dive into new journey as full-stack developer.
+      </p>
+      <div id="contact" class="d-flex justify-content-start align-items-center">
+        <div class="button-social">
           <i class="fa-solid fa-envelope red"></i>
           <%= mail_to "ryo.tamiyaayimat.oyr@gmail.com", "", class: 'button-social-link' %>
         </div>
-        <div class="button-social d-flex flex-column justify-content-center align-items-center">
+        <div class="button-social">
           <i class="fa-brands fa-github yellow"></i>
           <%= link_to "", "https://github.com/rtamiya", target: '_blank', class: 'button-social-link' %>
         </div>
-        <div class="button-social d-flex flex-column justify-content-center align-items-center">
+        <div class="button-social">
           <i class="fa-brands fa-linkedin blue"></i>
           <%= link_to "", "https://www.linkedin.com/in/ryotamiya/", target: '_blank', class: 'button-social-link' %>
-        </div>
       </div>
+    </div>
   </div>
-  <%# <div class="row my-5">
-  <div class="col-12"> %>
-    <%# </div>
-  </div> %>
-</div>
 </div>

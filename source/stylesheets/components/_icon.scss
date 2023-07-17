@@ -1,0 +1,14 @@
+.icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px
+}
+
+.icon-skills {
+  width: 28px;
+  height: fit-content;
+  object-fit: contain;
+  aspect-ratio: 1 / 1;
+  margin: 0 8px 0 0 ;
+  filter: grayscale(100%)
+}
