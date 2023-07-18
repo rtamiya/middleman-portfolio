@@ -72,3 +72,25 @@
     - images/projects/tictactoe/react-tic-tac-toe.png
   devicons:
     - react-original
+
+
+- id: 4
+  name: sorable tasklist
+  description: task list application with which you can create, edit, delete and sort your tasks.
+  icon: images/icons/sortable-tasklist.png
+  url: https://sortable-tasklist-bae5245cc878.herokuapp.com/tasks
+  github: https://github.com/rtamiya/rails-sortable-task-list
+  screenshots:
+    - images/projects/sortable_tasklist/Screenshot 2023-07-18 at 22.05.25.png
+  devicons:
+    - ruby-plain-wordmark
+    - rails-plain-wordmark
+    - postgresql-plain-wordmark
+    - javascript-plain
+    - html5-plain-wordmark
+    - css3-plain-wordmark
+    - sass-original
+    - bootstrap-plain-wordmark
+    - git-plain-wordmark
+    - github-original-wordmark
+    - heroku-plain-wordmark
