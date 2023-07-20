@@ -6,12 +6,100 @@ body{
 
 h1{
   font-size: 48px;
+  color: rgb(196, 196, 250);
 }
 
 h2 {
   font-size: 24px;
 }
 
+h4 {
+  color: rgb(141, 141, 185);
+}
+
 p {
   font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about {
+  margin-top: 80px;
+  width: 320px;
+}
+
+#skills {
+  margin-top: 40px;
+  width: 320px;
+}
+
+#projects {
+  margin-top: 40px;
+  width: 320px
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr ;
+  grid-gap: 8px;
+  margin-top: 16px;
+}
+
+// for bigger screens
+@media (min-width: 992px) {
+  .container {
+    align-items: start;
+  }
+
+  #about {
+    // display: flex;
+    // align-items: center;
+    // width: 100%;
+    // gap: 32px;
+    display: block;
+    width: 100%;
+  }
+
+  #about-left-column {
+    width: 400px;
+
+    h1 {
+      text-align: center;
+    }
+  }
+
+  #about-right-column {
+    flex: 1;
+  }
+
+  #skills {
+    display: block;
+    width: 100%;
+  }
+
+  #skills-description {
+    display: flex;
+  }
+
+  #projects {
+    display: block;
+    width: 100%;
+    margin-bottom: 32px;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+  }
+
+  .jenre{
+    width:100%;
+    gap: 16px
+  }
+
 }
