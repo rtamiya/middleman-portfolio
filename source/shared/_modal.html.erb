@@ -19,9 +19,11 @@
         <%= description %>
       </div>
       <div class="modal-footer">
-        <% link_to url, class: "btn btn-primary", target: "_blank" do %>
-          <i class="fa-solid fa-arrow-up-right-from-square" style="color: #f4f4f4;"></i>
-          Web site
+        <% if url.present? %>
+          <% link_to url, class: "btn btn-primary", target: "_blank" do %>
+            <i class="fa-solid fa-arrow-up-right-from-square" style="color: #f4f4f4;"></i>
+            Web site
+          <% end %>
         <% end %>
         <% link_to github, class: "btn btn-primary", target: "_blank" do %>
           <i class="fa-brands fa-github" style="color: #f4f4f4;"></i>

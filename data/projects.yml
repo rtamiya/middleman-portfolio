@@ -94,3 +94,22 @@
     - git-plain-wordmark
     - github-original-wordmark
     - heroku-plain-wordmark
+
+- id: 5
+  name: realtime-chat
+  description: realtime chat application with rails Action Cable
+  icon: images/icons/icons8-chat-52.png
+  github: https://github.com/rtamiya/rails-realtime-chat
+  screenshots:
+    - images/projects/realtime-chat/Screenshot 2023-07-29 at 17.32.22.png
+  devicons:
+    - ruby-plain-wordmark
+    - rails-plain-wordmark
+    - postgresql-plain-wordmark
+    - javascript-plain
+    - html5-plain-wordmark
+    - css3-plain-wordmark
+    - sass-original
+    - bootstrap-plain-wordmark
+    - git-plain-wordmark
+    - github-original-wordmark
